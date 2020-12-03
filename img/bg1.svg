@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="381" viewBox="0 0 335 381">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.7;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        stroke: #476b93;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="фигура" class="cls-1">
+    <ellipse id="Эллипс_1" data-name="Эллипс 1" class="cls-2" cx="61.781" cy="6.797" rx="6.438" ry="6.297"/>
+    <ellipse id="Эллипс_1-2" data-name="Эллипс 1" class="cls-2" cx="111.188" cy="6.797" rx="6.438" ry="6.297"/>
+    <ellipse id="Эллипс_1-3" data-name="Эллипс 1" class="cls-2" cx="162.406" cy="6.797" rx="6.375" ry="6.297"/>
+    <circle id="Эллипс_1-4" data-name="Эллипс 1" class="cls-2" cx="211.86" cy="6.797" r="6.359"/>
+    <circle id="Эллипс_1-5" data-name="Эллипс 1" class="cls-2" cx="263.047" cy="6.797" r="6.391"/>
+    <circle id="Эллипс_1-6" data-name="Эллипс 1" class="cls-2" cx="43.5" cy="55.64" r="6.406"/>
+    <ellipse id="Эллипс_1-7" data-name="Эллипс 1" class="cls-2" cx="92.922" cy="55.64" rx="6.422" ry="6.359"/>
+    <circle id="Эллипс_1-8" data-name="Эллипс 1" class="cls-3" cx="144.125" cy="55.64" r="6.375"/>
+    <circle id="Эллипс_1-9" data-name="Эллипс 1" class="cls-2" cx="193.531" cy="55.64" r="6.375"/>
+    <circle id="Эллипс_1-10" data-name="Эллипс 1" class="cls-2" cx="244.75" cy="55.64" r="6.438"/>
+    <circle id="Эллипс_1-11" data-name="Эллипс 1" class="cls-2" cx="25.203" cy="104.438" r="6.422"/>
+    <circle id="Эллипс_1-12" data-name="Эллипс 1" class="cls-2" cx="74.625" cy="104.438" r="6.406"/>
+    <circle id="Эллипс_1-13" data-name="Эллипс 1" class="cls-2" cx="125.844" cy="104.438" r="6.406"/>
+    <circle id="Эллипс_1-14" data-name="Эллипс 1" class="cls-2" cx="175.203" cy="104.438" r="6.422"/>
+    <circle id="Эллипс_1-15" data-name="Эллипс 1" class="cls-2" cx="226.484" cy="104.438" r="6.422"/>
+    <ellipse id="Эллипс_1-16" data-name="Эллипс 1" class="cls-2" cx="6.938" cy="153.235" rx="6.438" ry="6.297"/>
+    <circle id="Эллипс_1-17" data-name="Эллипс 1" class="cls-2" cx="56.328" cy="153.235" r="6.422"/>
+    <circle id="Эллипс_1-18" data-name="Эллипс 1" class="cls-2" cx="107.547" cy="153.235" r="6.359"/>
+    <ellipse id="Эллипс_1-19" data-name="Эллипс 1" class="cls-2" cx="156.938" cy="153.235" rx="6.438" ry="6.297"/>
+    <circle id="Эллипс_1-20" data-name="Эллипс 1" class="cls-2" cx="208.188" cy="153.235" r="6.406"/>
+    <circle id="Эллипс_1-21" data-name="Эллипс 1" class="cls-2" cx="126.813" cy="227.765" r="6.406"/>
+    <circle id="Эллипс_1-22" data-name="Эллипс 1" class="cls-2" cx="176.234" cy="227.765" r="6.422"/>
+    <circle id="Эллипс_1-23" data-name="Эллипс 1" class="cls-2" cx="227.453" cy="227.765" r="6.359"/>
+    <circle id="Эллипс_1-24" data-name="Эллипс 1" class="cls-2" cx="276.844" cy="227.765" r="6.375"/>
+    <circle id="Эллипс_1-25" data-name="Эллипс 1" class="cls-2" cx="328.063" cy="227.765" r="6.438"/>
+    <circle id="Эллипс_1-26" data-name="Эллипс 1" class="cls-2" cx="108.516" cy="276.563" r="6.422"/>
+    <ellipse id="Эллипс_1-27" data-name="Эллипс 1" class="cls-2" cx="157.938" cy="276.563" rx="6.406" ry="6.344"/>
+    <circle id="Эллипс_1-28" data-name="Эллипс 1" class="cls-2" cx="209.156" cy="276.563" r="6.406"/>
+    <circle id="Эллипс_1-29" data-name="Эллипс 1" class="cls-2" cx="258.594" cy="276.563" r="6.375"/>
+    <circle id="Эллипс_1-30" data-name="Эллипс 1" class="cls-2" cx="309.797" cy="276.563" r="6.422"/>
+    <circle id="Эллипс_1-31" data-name="Эллипс 1" class="cls-2" cx="90.25" cy="325.36" r="6.438"/>
+    <circle id="Эллипс_1-32" data-name="Эллипс 1" class="cls-2" cx="139.656" cy="325.36" r="6.438"/>
+    <ellipse id="Эллипс_1-33" data-name="Эллипс 1" class="cls-3" cx="190.875" cy="325.36" rx="6.375" ry="6.36"/>
+    <circle id="Эллипс_1-34" data-name="Эллипс 1" class="cls-2" cx="240.219" cy="325.36" r="6.406"/>
+    <circle id="Эллипс_1-35" data-name="Эллипс 1" class="cls-2" cx="291.5" cy="325.36" r="6.406"/>
+    <ellipse id="Эллипс_1-36" data-name="Эллипс 1" class="cls-2" cx="71.953" cy="374.203" rx="6.391" ry="6.297"/>
+    <circle id="Эллипс_1-37" data-name="Эллипс 1" class="cls-2" cx="121.344" cy="374.203" r="6.406"/>
+    <circle id="Эллипс_1-38" data-name="Эллипс 1" class="cls-2" cx="172.594" cy="374.203" r="6.375"/>
+    <ellipse id="Эллипс_1-39" data-name="Эллипс 1" class="cls-2" cx="221.969" cy="374.203" rx="6.406" ry="6.297"/>
+    <circle id="Эллипс_1-40" data-name="Эллипс 1" class="cls-2" cx="273.219" cy="374.203" r="6.438"/>
+  </g>
+</svg>

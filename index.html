@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet"> 
+    <!-- Сброс стандартных стилей -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Стили слайдера -->
+    <link rel="stylesheet" href="./slick/slick.css"/>
+    <link rel="stylesheet" href="./slick/slick-theme.css"/>
+    <!-- Стили галереи -->
+    <link rel="stylesheet" href="./fancybox/css/jquery.fancybox.min.css">
+
+    <title>Energo Pro</title>
+</head>
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="preloader__wrap">
+            <span class="preloader__svg_anm"></span>
+        </div>
+    </div>
+    
+    <!-- header -->
+    <header class="header">
+        <div class="bg-1"></div>
+        
+        <div class="wrap wrap--header">
+            <div class="header__top">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo" class="logo__img">
+                </div>
+                <ul class="header__nav">
+                    <li class="header__item header__icon--email">
+                        <img src="./img/icon/email.png" class="header__icon" alt="icon email">
+                        <a href="mailto:info@compressorua.com" class="header__link">info@compressorua.com</a>
+                    </li>
+                    <li class="header__item">
+                        <img src="./img/icon/tel.png" class="header__icon" alt="icon tel">
+                        <a href="tel:0503454030" class="header__link">050 345 4030</a>
+                    </li>
+                    <li class="header__item">
+                        <img src="./img/icon/tel.png" class="header__icon" alt="icon tel">
+                        <a href="tel:0675354030" class="header__link">067 535 4030</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__main">
+                <div class="header__info">
+                    <div class="header__block-title">
+                        <h1 class="header__title"><span>Безошибочный</span> </br >подбор фильтров </br>к компрессорам</h1>
+                    </div>
+                    <div class="header__filter-img"></div>
+                    <div class="header__block-desc">
+                        <div class="header__block-wrap">
+                            <span class="header__desc">3 варианта на любой бюджет!</span>
+                            <span class="header__desc">Всего за 15 минут!</span>
+                            <span class="header__desc">С консультацией сервис-инженера!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__form header__form--success">
+                    <span class="header__form-title">Подобрать фильтр</span>
+                    <form action="#" method="post" id="sendform" enctype="multipart/form-data" class="header__form-action">
+                        <div class="header__form-icon-camera header__form-input">
+                            <label class="header__form-label" id="select_file" name="upload" placeholder="" for="upload-photo">Фото компрессора</label>
+                            <input type="file" name="file[]" value="1" size="40" id="upload-photo" accept="image/gif, image/jpeg, image/jpg, image/png" multiple>
+                        </div>
+                        <div class="header__form-icon-gears">
+                            <input type="text" class="header__form-input" name="cod-filter" placeholder="Код фильтра">
+                        </div>
+                        <div class="header__form-icon-user">
+                            <input type="text" class="header__form-input required" name="user_name" placeholder="Ваше имя">
+                        </div>
+                        <div class="header__form-icon-call">
+                            <input type="text" class="header__form-input required" id="tel" name="user_tel" type="tel" placeholder="Телефон для связи">
+                        </div>
+                        <button type="submit" name="sendMail" class="btn btn--danger">Отправить</button>
+                    </form>
+
+                    <div id="post_form_success"></div>
+                    <div id="message_box" class="message_box"><p id="message">Заявка отправлена</p></div>
+                </div>
+            </div>
+            <div class="header__bootom">
+                <div class="header__arrow"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="trust-us">
+        <div class="bg-2"></div>
+        <div class="wrap wrap--trust-us">
+            <div class="trust-us__top">
+                <h2 class="trust-us__title">нам доверяют тысячи </br>украинскиих предприятий</h2>
+                <div class="trust-us__availability">
+                    <span class="trust-us__desc">90% в наличии на складе</span>
+                </div>
+            </div>
+            <div class="trust-us__slider">
+                <div class="trust-us__slider-control">
+                    <div class="trust-us__action-left"></div>
+                    <div class="trust-us__action-right"></div>
+                </div>
+                <div class="trust-us__sliders">
+                    <div class="trust-us__img-block">
+                        <a data-fancybox="images" class="trust-us__img-link" id="gal" href="./img/1.jpg"  data-caption="Документ 1">
+                            <img src="./img/1.jpg" class="trust-us__img" />
+                        </a>
+                    </div>
+                    <div class="trust-us__img-block">
+                        <a data-fancybox="images" class="trust-us__img-link" id="gal" href="./img/1.jpg"  data-caption="Документ 2">
+                            <img src="./img/1.jpg" class="trust-us__img" />
+                        </a>
+                    </div>
+                    <div class="trust-us__img-block">
+                        <a data-fancybox="images" class="trust-us__img-link" id="gal" href="./img/1.jpg"  data-caption="Документ 3">
+                            <img src="./img/1.jpg" class="trust-us__img" />
+                        </a>
+                    </div>
+                    <div class="trust-us__img-block">
+                        <a data-fancybox="images" class="trust-us__img-link" id="gal" href="./img/1.jpg"  data-caption="Документ 4">
+                            <img src="./img/1.jpg" class="trust-us__img" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="trust-us__slider-counter">
+                <span id="cp">1</span>/4
+            </div>
+        </div>
+    </section>
+
+    <!-- Библиотека JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Библиотека проверки поля на валидность -->
+    <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script> 
+    <!-- Библиотека маски для номера телефона -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>  
+    <!-- Скрипт маски поля -->
+    <script>$("#tel").mask("+38(999)999-99-99");</script>
+    <!-- Библиотека слайдера -->
+    <script src="./slick/slick.min.js"></script>
+    <!-- Глобальный скрипт -->
+    <script src="./js/script.js"></script>
+    <!-- Скрипт отправки email -->
+    <script src="./mail/js/multiengine.js"></script>
+     <!-- Библиотека Галереи -->
+    <script src="./fancybox/js/jquery.fancybox.min.js"></script>
+
+</body>
+</html>

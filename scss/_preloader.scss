@@ -1,0 +1,29 @@
+
+
+.preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #fff;
+    z-index: 999;
+
+    &__wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+        
+    
+    &__svg_anm {
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        background: url(../img/preloader.svg) center center no-repeat;
+        background-size: 55px;    
+        margin: -16px 0 0 -16px;
+    }
+}

@@ -1,0 +1,29 @@
+<svg id="стрелка_вниз" data-name="стрелка вниз" xmlns="http://www.w3.org/2000/svg" width="17" height="39" viewBox="0 0 17 39">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.3;
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        opacity: 0.7;
+      }
+
+      .cls-4 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_3" data-name="Эллипс 3" class="cls-1" cx="8.5" cy="2.375" r="2.344"/>
+  <circle id="Эллипс_3-2" data-name="Эллипс 3" class="cls-2" cx="8.5" cy="11.266" r="3.031"/>
+  <circle id="Эллипс_3-3" data-name="Эллипс 3" class="cls-3" cx="8.828" cy="21.844" r="4.047"/>
+  <path id="Прямоугольник_скругл._углы_1" data-name="Прямоугольник, скругл. углы 1" class="cls-4" d="M959.536,899.587l-7.15-7.241a1.379,1.379,0,0,1,0-1.931h16.207a1.379,1.379,0,0,1,0,1.931l-7.15,7.241A1.337,1.337,0,0,1,959.536,899.587Z" transform="translate(-952 -861)"/>
+</svg>
